@@ -1,9 +1,8 @@
 body{
-    background-color: #0000bf;
+    background-color: #df7401;
     color: #ffffff;
     font-weight: normal;
-    font-family: "Comic Sans MS", cursive, Arial, Helvetica,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
-    text-align: justify;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h1{
@@ -14,53 +13,31 @@ h1{
 }
 h3{
     color: #ffcc00;
-    letter-spacing: 2mm;
+    letter-spacing: 3mm;
     text-align: center;
 }
 h5{
     color: #ffffff;
     text-align: left;
 }
-hr{
-    width: 200px;
-    height: 2px;
-    background-color: red;
-    color: red;
-    align-self: auto;
 
+p{
+text-align: justify;
 }
-.orange{
-    color: #ffdf00;
+p:nth-child(even){ /*odd*/
+color: #ffcc00;
 }
-.fett{
+
+em{
+    color: brown;
     font-weight: bold;
-    letter-spacing: 2mm;
 }
-.tv{
-    color: #ff9900;
+strong{
+    color: brown;
+    letter-spacing: 3mm;
+    font-weight: bolder;
 }
-#w{
-    font-weight: bold;
-    font-size: x-large;
-    color: #ffff00;
-}
-#i{
-    font-weight: bold;
-    font-size: x-large;
-    color: #ffdf00;
-}
-#l{
-    font-weight: bold;
-    font-size: x-large;
-    color: #ffbf00;
-}
-#m{
-    font-weight: bold;
-    font-size: x-large;
-    color: #ff7f00;
-}
-.a{
-    font-weight: bold;
-    font-size: x-large;
-    color: #ff0000;
+
+img{
+    max-height: 200px;
 }
